@@ -1,4 +1,8 @@
-function Type() {
+type TypeProps = {
+  orderType: string;
+};
+
+function Type({}: TypeProps) {
   return <></>;
 }
 
